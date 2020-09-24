@@ -17,7 +17,6 @@ app.use(bodyParser.json());
 app.use(helmet());
 app.use(logger);
 
-
 // routes
 app.get('/', (req, res) => {
     res.json({message: 'Hello World 👋'});
