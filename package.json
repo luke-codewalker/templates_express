@@ -1,0 +1,28 @@
+{
+  "name": "templates_express",
+  "version": "1.0.0",
+  "description": "A simple express server template meant to be used with degit for new projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke-codewalker/templates_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luke-codewalker/templates_express/issues"
+  },
+  "homepage": "https://github.com/luke-codewalker/templates_express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
